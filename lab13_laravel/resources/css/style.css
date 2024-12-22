@@ -14,9 +14,9 @@ header {
     margin: 0;
 }
 header p {
-    margin: 10px 10px 10px 70px;
+    margin: 10px 10px 10px 80px;
 }
-.home-page {
+.home-page, .mockups-page {
     color: gray;
     margin-left: 30px;
 }
@@ -24,28 +24,57 @@ a{
     text-decoration: none;
 }
 .container {
-    margin-left: 70px;
+    margin-left: 90px;
 }
 li {
     margin: 5px 0;
 }
-.header-container {
+.header-container p {
     font-size: 32px;
+    font-weight: 500;
+
+}
+.answer-count p {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.answer-output p {
+    font-size: 16px;
+    margin: 3px 30px;
+}
+.calc-container output {
+    font-weight: bold;
 }
 .calc-container input {
+    margin: 3px 0 15px 0;
     height: 30px;
-    width: 200px;
+    width: 300px;
+    border: 1px solid #979aa1;
+    border-radius: 5px;
 }
-.calc-container button {
-    height: 30px;
+.calc-container input[type=submit] {
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #979aa1;
+}
+.calc-container .next-btn{
+    width: 50px;
+    background-color: white;
+}
+.calc-container .finish-btn{
+    width: 60px;
+    color: white;
+    background-color: #3365dc;
 }
 footer {
-    margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 90px;
     width:100%;
     font-size: 16px;
-    border-top: 1px solid #cbd5e0;
 }
-footer p {
-    padding-top: 10px;
+.line-top {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 180px;
+    border-top: 1px solid #cbd5e0;
 }
